@@ -31,13 +31,13 @@
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4devkit" revision="maaxboard-usb" upstream="maaxboard-usb" dest-branch="maaxboard-usb"/>
   <project name="pruner.git" path="tools/pruner" revision="6df378e8d91856d204e4d024796b91c6802d0501" upstream="master" dest-branch="master"/>
   <project name="rumprun.git" path="tools/rumprun" revision="04464ab931c28ca1c78e807741d82a4792660183" upstream="master" dest-branch="master"/>
-  <project name="seL4.git" path="kernel" remote="sel4devkit" revision="sprint4" upstream="sprint4" dest-branch="sprint4"/>
+  <project name="seL4.git" path="kernel" remote="sel4devkit" revision="avnet-maaxboard" upstream="avnet-maaxboard" dest-branch="avnet-maaxboard"/>
   <project name="seL4_libs.git" path="projects/seL4_libs" revision="d8ae2c44e92d1bf19891344eb038752565f0b30e" upstream="master" dest-branch="master"/>
   <project name="seL4_projects_libs.git" path="projects/seL4_projects_libs" revision="b687e3d503ed685634713eae868b220bdcda8261" upstream="master" dest-branch="master"/>
-  <project name="seL4_tools.git" path="tools/seL4" remote="sel4devkit" revision="sprint4" upstream="sprint4" dest-branch="sprint4">
+  <project name="seL4_tools.git" path="tools/seL4" remote="sel4devkit" revision="avnet-maaxboard" upstream="avnet-maaxboard" dest-branch="avnet-maaxboard">
     <linkfile src="cmake-tool/init-build.sh" dest="init-build.sh"/>
     <linkfile src="cmake-tool/griddle" dest="griddle"/>
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
-  <project name="util_libs.git" path="projects/util_libs" remote="sel4devkit" revision="sprint4" upstream="sprint4" dest-branch="sprint4"/>
+  <project name="util_libs.git" path="projects/util_libs" remote="sel4devkit" revision="avnet-maaxboard" upstream="avnet-maaxboard" dest-branch="avnet-maaxboard"/>
 </manifest>
