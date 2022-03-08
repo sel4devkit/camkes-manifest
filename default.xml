@@ -18,7 +18,7 @@
   <project name="camkes-tool.git" path="projects/camkes-tool" revision="bceec3634b2c107c3b8136d2128b0ad94f1accac" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
-  <project name="camkes.git" path="projects/camkes" remote="sel4devkit" revision="sprint4" upstream="sprint4" dest-branch="sprint4">
+  <project name="camkes.git" path="projects/camkes" remote="sel4devkit" revision="MaaXBoard" upstream="MaaXBoard" dest-branch="MaaXBoard">
     <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
   </project>
   <project name="capdl.git" path="projects/capdl" revision="e6d99092c0d179c0370feaa2a87b0e7a445b8526" upstream="master" dest-branch="master"/>
