@@ -40,4 +40,6 @@
   </project>
   <project name="sel4runtime" path="projects/sel4runtime" revision="d935dd05da0cf959e9fd0140af913dc6fdaa0221" upstream="master" dest-branch="master"/>
   <project name="util_libs.git" path="projects/util_libs" remote="sel4devkit" revision="avnet-maaxboard" upstream="avnet-maaxboard" dest-branch="avnet-maaxboard"/>
+  <project name="u-boot.git" path="projects/uboot" remote="sel4devkit" revision="libubootdrivers" upstream="libubootdrivers" dest-branch="libubootdrivers">
+    <linkfile src="." dest="projects/projects_libs/libubootdrivers/uboot"/>
 </manifest>
