@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
    Copyright 2022 seL4 Project a Series of LF Projects, LLC
    SPDX-License-Identifier: BSD-2-Clause
@@ -10,7 +9,6 @@
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
   <remote name="sel4devkit" fetch="https://github.com/sel4devkit"/>
-  <remote name="stephen" fetch="https://github.com/stephen-williams-capgemini"/>
   <remote name="seL4" fetch="../seL4"/>
   
   <default remote="seL4" revision="master"/>
@@ -20,6 +18,8 @@
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" remote="sel4devkit" revision="maaxboard-usb" upstream="maaxboard-usb" dest-branch="maaxboard-usb">
+    <linkfile src="easy-settings.cmake" dest="easy-settings.cmake"/>
+  </project>
   <project name="capdl.git" path="projects/capdl" revision="e6d99092c0d179c0370feaa2a87b0e7a445b8526" upstream="master" dest-branch="master"/>
   <project name="cogent" path="tools/cogent" remote="nicta" revision="febf9e343c3f98f40e0530e721ee882ee4610ba0" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4devkit" revision="sprint4" upstream="sprint4" dest-branch="sprint4"/>
