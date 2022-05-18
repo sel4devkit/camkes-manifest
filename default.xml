@@ -9,6 +9,7 @@
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
   <remote name="sel4devkit" fetch="https://github.com/sel4devkit"/>
+  <remote name="stephen" fetch="https://github.com/stephen-williams-capgemini"/>
   <remote name="seL4" fetch="../seL4"/>
   
   <default remote="seL4" revision="master"/>
