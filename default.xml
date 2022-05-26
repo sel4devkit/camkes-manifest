@@ -10,13 +10,12 @@
   <remote name="opensbi" fetch="https://github.com/riscv"/>
   <remote name="picotcp" fetch="https://github.com/tass-belgium"/>
   <remote name="sel4devkit" fetch="https://github.com/sel4devkit"/>
-  <remote name="stephen" fetch="https://github.com/stephen-williams-capgemini"/>
   <remote name="seL4" fetch="../seL4"/>
   
   <default remote="seL4" revision="master"/>
   
   <project name="cakeml_libs.git" path="projects/cakeml_libs" revision="0d3f232e795a7e79bd3ecd831636507711275a0a" upstream="master" dest-branch="master"/>
-  <project name="camkes-tool.git" path="projects/camkes-tool" revision="bceec3634b2c107c3b8136d2128b0ad94f1accac" upstream="master" dest-branch="master">
+  <project name="camkes-tool.git" path="projects/camkes-tool" revision="0f1b0faa0e095031cebd9160d1fd29ea4eb2760b" upstream="master" dest-branch="master">
     <linkfile src="docs/index.md" dest="README.md"/>
   </project>
   <project name="camkes.git" path="projects/camkes" remote="sel4devkit" revision="MaaXBoard" upstream="MaaXBoard" dest-branch="MaaXBoard">
@@ -26,7 +25,7 @@
   <project name="cogent" path="tools/cogent" remote="nicta" revision="febf9e343c3f98f40e0530e721ee882ee4610ba0" upstream="master" dest-branch="master"/>
   <project name="global-components.git" path="projects/global-components" remote="sel4devkit" revision="sprint4" upstream="sprint4" dest-branch="sprint4"/>
   <project name="lwip.git" path="projects/lwip" remote="lwip" revision="159e31b689577dbf69cf0683bbaffbd71fa5ee10" upstream="refs/tags/STABLE-2_1_2_RELEASE" dest-branch="refs/tags/STABLE-2_1_2_RELEASE"/>
-  <project name="musllibc.git" path="projects/musllibc" remote="stephen" revision="3d09eb5fb16e67af10c80d8eb16437f2925cea44" upstream="issue_17" dest-branch="issue_17"/>
+  <project name="musllibc.git" path="projects/musllibc" revision="3d6b939e8f05cb1d2a1a8c8166609bf2e652e975" upstream="sel4" dest-branch="sel4"/>
   <project name="opensbi" path="tools/opensbi" remote="opensbi" revision="234ed8e427f4d92903123199f6590d144e0d9351" upstream="refs/tags/v0.9" dest-branch="refs/tags/v0.9"/>
   <project name="picotcp.git" path="projects/picotcp" remote="picotcp" revision="13c00a067190f5ec62340ed932a2bb833c366d63" upstream="refs/tags/v1.7.0" dest-branch="refs/tags/v1.7.0"/>
   <project name="projects_libs.git" path="projects/projects_libs" remote="sel4devkit" revision="sprint4" upstream="sprint4" dest-branch="sprint4"/>
